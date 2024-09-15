@@ -9,7 +9,7 @@ public class NavigationController {
 public String index() {
 	return "index";
 }
-
+//Test
 @GetMapping("/openSignUp")
 public String openSignUp() {
 	return "SignUp";
